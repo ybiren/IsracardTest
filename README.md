@@ -1,3 +1,6 @@
+Technologies: Angular2 MVC.NET, Bootstrap
+
+In order to run project:
 
 1) clone git
 2) change directory to  ng2MvcDemo

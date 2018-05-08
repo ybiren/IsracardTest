@@ -1,0 +1,12 @@
+﻿<div class="col-sm-3 box" (click)="handleEvent()">
+    <div class="patRow" *ngIf="showBMbtn">
+        <div id="repoBM"><button class="btn rounded">Set Bookmark</button></div>
+     </div>   
+        <div class="patRow">
+            <div id="repoName">{{name}}</div>
+        </div>
+        <div class="patRow">
+            <img class="img-responsive repoAvatar"  [src]="avatar">
+        </div>
+
+    </div>

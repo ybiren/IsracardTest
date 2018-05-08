@@ -1,0 +1,8 @@
+﻿<ng-spinner [display]="isSpinner"></ng-spinner>
+<div class="row form-group">
+        <div class="form-row align-items-center col-sm-1"><label for="repoSrch">Repo:</label></div>
+        <div class="form-row align-items-center col-sm-offset-0 col-sm-3"><input [(ngModel)]="srchCrit" (keyup.enter)="getData()" id="repoSrch" class="form-control" /></div>
+        <div class="form-row align-items-center col-sm-offset-0 col-sm-2"><button (click)="getData()" class="btn-primary form-control">Search</button></div>
+        <div class="form-row align-items-center col-sm-offset-0 col-sm-2"><button (click)="getBookmarks()" class="btn-info form-control">Show bookmarks</button></div>
+</div>
+<div class="content" #dynamicInsert></div>
